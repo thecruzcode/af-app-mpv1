@@ -9,37 +9,58 @@
    #js-form{
       text-align: center;
       margin: 0;
-      width: 303px;
+      width: 100%;
       text-align: center;
       /* margin: 12px; */
       /* display: flex; */
     }
   
   input[type="text"]{
+      /* padding: 5px;
+      border: 1px solid gray;
+      margin: 5px;
+      border-radius: 5px;
+      margin-top: 16px;
+      width: 100%; */
       padding: 5px;
       border: 1px solid gray;
       margin: 5px;
       border-radius: 5px;
       margin-top: 16px;
-      width: 100%;
+      width: 72%;
   }
   
   input[type="number"]{
+      /* padding: 5px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      position: relative;
+      top: 20px;
+      width: 100%; */
+      /* margin-top: -10px; */
       padding: 5px;
       border: 1px solid gray;
       border-radius: 5px;
       position: relative;
       top: 20px;
-      width: 100%;
-  
+      width: 72%;
       /* margin-top: -10px; */
   }
   
   input[type="submit"]{
-      width: 248px;
+      /* width: 248px;
       border-radius: 5px;
       /* background: green;
       color: #fff; */
+      /* background: none;
+      color: #000;
+      text-align: center;
+      position: relative;
+      top: 40px;
+      padding: 9px;
+      border: 1px solid gray; */ 
+      width: 248px;
+      border-radius: 5px;
       background: none;
       color: #000;
       text-align: center;
@@ -47,7 +68,6 @@
       top: 40px;
       padding: 9px;
       border: 1px solid gray;
-  
   }
   
   button:hover {
@@ -76,13 +96,37 @@
   }
   
   .search-homes-box{
-    position: relative;
-    top: 5px;
-    width: 100%;
+    /* position: relative;
+    top: 5px; */
+    /* position: relative;
+    left: -1px; */
+     width: 100%;
   }
+   
   
   h1 {
     font-size: 20px;
     padding-right: 40px;
     padding-left: 40px;
   }
+  
+  /* MEDIA QUERIES */
+  
+  @media only screen 
+    and (min-width: 375px) 
+    and (max-width: 667px){
+      h1 {
+      font-size: 20px;
+      padding-right: 40px;
+      padding-left: 40px;
+      text-align: center;
+      padding-top: 30px;
+    }
+    .search-homes-box {
+      top: 5px;
+      /* display: flex; */
+      position: relative;
+      left: 6px;
+    }
+  }
+  
