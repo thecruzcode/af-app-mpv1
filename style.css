@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+   #js-form{
+      text-align: center;
+      margin: 0;
+      width: 303px;
+      text-align: center;
+      /* margin: 12px; */
+      /* display: flex; */
+    }
+  
+  input[type="text"]{
+      padding: 5px;
+      border: 1px solid gray;
+      margin: 5px;
+      border-radius: 5px;
+      margin-top: 16px;
+      width: 100%;
+  }
+  
+  input[type="number"]{
+      padding: 5px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      position: relative;
+      top: 20px;
+      width: 100%;
+  
+      /* margin-top: -10px; */
+  }
+  
+  input[type="submit"]{
+      width: 248px;
+      border-radius: 5px;
+      /* background: green;
+      color: #fff; */
+      background: none;
+      color: #000;
+      text-align: center;
+      position: relative;
+      top: 40px;
+      padding: 9px;
+      border: 1px solid gray;
+  
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .error-message {
+    color: gray;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  label{
+      position: relative;
+      top: 9px;
+      /* margin: 0; */
+      display: flex;
+      justify-content: center;
+  }
+  
+  .search-homes-box{
+    position: relative;
+    top: 5px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
